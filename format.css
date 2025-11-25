@@ -1,0 +1,43 @@
+/** 
+ * CSS Dokument
+ * Autor: Herr Fiedler
+ * Lizenz: MIT License
+ * Diese Datei darf frei genutzt, verändert und weitergegeben werden.
+ * Vollständiger Lizenztext: https://opensource.org/licenses/MIT
+ **/
+
+/* Grundlegendes Styling für den Body */
+body {
+    margin: 0;                   /* Abstand vom Browserrand entfernen */
+    padding-top: 50px;           /* Oben Platz für Header */
+    background-color: #c0c0c0;  /* Hellgrauer Hintergrund */
+    font-family: Arial, sans-serif; /* Standardschrift */
+    text-align: center;          /* Alles zentrieren */
+}
+
+/* Hauptüberschrift */
+h1 {
+    color: #FF1982;       /* Pink */
+    font-size: 2em;       /* Relative Schriftgröße */
+    margin-bottom: 0.5em; /* Abstand nach unten */
+}
+
+/* Unterüberschrift */
+h2 {
+    color: purple;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* Textabschnitte */
+.text1 {
+    font-size: 1em;
+    color: #000000;
+    font-weight: normal;
+    line-height: 1.5; /* Zeilenabstand für bessere Lesbarkeit */
+}
+
+/* Container für Links oder besondere Abschnitte */
+.container {
+    display: inline-block;       /* Block, aber zentriert */
+    background-color:
